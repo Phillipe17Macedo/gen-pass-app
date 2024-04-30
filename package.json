@@ -1,5 +1,5 @@
 {
-  "name": "bat-pass-app",
+  "name": "gen-pass-app",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -10,10 +10,11 @@
   },
   "dependencies": {
     "expo": "~50.0.17",
+    "expo-clipboard": "~5.0.1",
     "expo-status-bar": "~1.11.1",
+    "npm-install-checks": "^6.3.0",
     "react": "18.2.0",
-    "react-native": "0.73.6",
-    "expo-clipboard": "~5.0.1"
+    "react-native": "0.73.6"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

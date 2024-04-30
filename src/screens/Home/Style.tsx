@@ -9,14 +9,11 @@ const styles = StyleSheet.create({
     },
     logoContainer: {
       flexDirection: 'column',
-      borderWidth: 1,
-      borderColor: '#fff',
       justifyContent: 'center',
       alignSelf: 'center',
       marginBottom: 60,
       paddingTop: 20,
       paddingBottom: 10,
-      backgroundColor: '#4D4D4D',
     },
     inputContainer: {
       width: '80%',

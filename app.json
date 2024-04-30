@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "bat-pass-app",
-    "slug": "bat-pass-app",
+    "name": "gen-pass-app",
+    "slug": "gen-pass-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.phillipe17macedo.genpassapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8e694b47-0ae5-4295-b6ae-38531fe8ac1a"
+      }
     }
   }
 }
