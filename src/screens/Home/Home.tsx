@@ -1,19 +1,24 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 
 import styles from './Style';
-import { BatLogo } from '../BatLogo/BatLogo';
+import { BatLogo } from '../../components/BatLogo/BatLogo';
+import { BatTextInput } from '../../components/BatTextInput/BatTextInput';
+import { BatButton } from '../../components/BatButton/BatButton';
 
 export default function Home() {
   return (
     <View style={styles.appContainer}>
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
 
       <View style={[styles.logoContainer]}>
         <BatLogo/>
       </View>
-      
-      <Text>TELA HOME </Text>
+
+      <View style={[styles.inputContainer]}>
+        <BatTextInput/>
+        <BatButton/>
+      </View>
     </View>
   );
 }
