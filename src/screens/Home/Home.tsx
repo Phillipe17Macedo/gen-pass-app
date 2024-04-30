@@ -6,10 +6,10 @@ import { BatLogo } from '../BatLogo/BatLogo';
 
 export default function Home() {
   return (
-    <View style={styles.container}>
+    <View style={styles.appContainer}>
       <StatusBar style="auto" />
 
-      <View>
+      <View style={[styles.logoContainer]}>
         <BatLogo/>
       </View>
       
